@@ -25,10 +25,19 @@ public static class ChmCache
         var tmp = dir + ".tmp";
         if (Directory.Exists(tmp)) Directory.Delete(tmp, true);
         Directory.CreateDirectory(tmp);
+        var root = Path.GetFullPath(tmp) + Path.DirectorySeparatorChar;
         using (var archive = new ArchiveFile(chmPath))
-            archive.Extract(tmp);
+            archive.Extract(entry => SafeTarget(root, entry.FileName));
         Directory.Move(tmp, dir);
         return dir;
+    }
+
+    // CHM is untrusted input: refuse entries that would land outside the cache dir (zip-slip).
+    public static string? SafeTarget(string root, string entryName)
+    {
+        if (string.IsNullOrEmpty(entryName) || Path.IsPathRooted(entryName)) return null;
+        var full = Path.GetFullPath(Path.Combine(root, entryName));
+        return full.StartsWith(root, StringComparison.OrdinalIgnoreCase) ? full : null;
     }
 
     public static void Cleanup(int maxAgeDays = 7)
