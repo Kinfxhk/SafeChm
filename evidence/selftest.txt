@@ -1,0 +1,17 @@
+CHM: C:/Program Files/7-Zip/7-zip.chm
+Extracted files: 94
+Cache dir: C:\Users\kinfx\AppData\Local\SafeChm\cache\162e92f24258f36c24c1907505e7cf8a1f981684d180c9e8d1e35a7bb3c1eb6f
+TOC entries: 70
+TOC file: 7zip.hhc
+Search 'archive' results: 59
+  - -- (Stop switches parsing) switch  [cmdline\switches\stop_switch.htm]
+  - -ai (Include archive filenames) switch  [cmdline\switches\ar_include.htm]
+  - -an (Disable parsing of archive_name) switch  [cmdline\switches\ar_no.htm]
+  - -ao (Overwrite mode) switch  [cmdline\switches\overwrite.htm]
+  - -ax (Exclude archive filenames) switch  [cmdline\switches\ar_exclude.htm]
+  - -bb (Set output log level) switch  [cmdline\switches\bb.htm]
+  - -i (Include filenames) switch  [cmdline\switches\include.htm]
+  - -m (Set compression Method) switch  [cmdline\switches\method.htm]
+  - -o (set Output directory) switch  [cmdline\switches\output_dir.htm]
+  - -p (set Password) switch  [cmdline\switches\password.htm]
+  ... and 49 more
