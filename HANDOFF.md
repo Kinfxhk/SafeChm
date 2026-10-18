@@ -50,3 +50,8 @@ Features shipped (exactly the v1.0.0 list):
 - Used the SevenZipExtractor NuGet package's own `.targets`, which copies `7z.dll` to `x64/` and `x86/`
   under the output; the library locates `x64/7z.dll` at runtime. No binaries committed to the repo.
 - `--selftest` is a hidden CLI mode handled in `App.OnStartup` (exits before any window is shown).
+
+
+## Reviewer verification (it-dog)
+
+- KinTest VM (clean Windows 11, .NET 10 Desktop Runtime, release zip only): `--selftest 7-zip.chm` exit 0 (94 files, 70 TOC entries, 59 hits); GUI opened the CHM, TOC + page rendered, status bar 腳本已停用. Evidence: `evidence/vm/`.

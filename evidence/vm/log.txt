@@ -1,0 +1,2 @@
+﻿SafeChm selftest exit=0
+SafeChm gui alive=True
