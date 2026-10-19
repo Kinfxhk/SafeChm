@@ -69,5 +69,3 @@ MIT。詳見 LICENSE。第三方元件列於 THIRD-PARTY-NOTICES.md。
 If this tool helps you, you can buy me a coffee. 如果這個工具對你有幫助，歡迎請我喝杯咖啡。
 
 - Buy Me a Coffee: https://buymeacoffee.com/kinfxhk
-- PayPal: https://paypal.me/sc2nohope
-- PayMe (HSBC): https://payme.hsbc/kinfx
