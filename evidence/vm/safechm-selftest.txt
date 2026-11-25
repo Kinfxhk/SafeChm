@@ -1,6 +1,6 @@
-CHM: C:\Users\KinTest\inst\s5\7-zip.chm
+CHM: C:\Users\Example\inst\s5\7-zip.chm
 Extracted files: 94
-Cache dir: C:\Users\KinTest\AppData\Local\SafeChm\cache\162e92f24258f36c24c1907505e7cf8a1f981684d180c9e8d1e35a7bb3c1eb6f
+Cache dir: C:\Users\Example\AppData\Local\SafeChm\cache\162e92f24258f36c24c1907505e7cf8a1f981684d180c9e8d1e35a7bb3c1eb6f
 TOC entries: 70
 TOC file: 7zip.hhc
 Search 'archive' results: 59
